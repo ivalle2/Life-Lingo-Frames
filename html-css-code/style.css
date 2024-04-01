@@ -1,0 +1,187 @@
+.topnav {
+    background-color: darkseagreen;
+    overflow: hidden;
+    width: auto;
+}
+
+.topnav a{
+    float: right;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: darkseagreen;
+}
+
+.logo{
+    max-width: 100px;
+    height:auto;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.catch {
+    margin-top: 35px;
+    margin-bottom: 0px;
+    text-align: center;
+    width: auto;
+    padding: 10px 16px; 
+    font-size: 25px;
+    color: darkseagreen;
+}
+
+.title {
+    margin-top: -45px;
+    margin-bottom: 0px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 10px 16px; 
+    font-size: 35px;
+}
+
+.software {
+    margin-top: -50px;
+    margin-bottom: 0px;
+    text-align: center;
+    width: auto;
+    padding: 10px 16px; 
+    font-size: 25px;
+    color: darkseagreen;
+}
+
+.frames-container {
+    display: flex;
+    justify-content: center;
+}
+
+.frames{
+    width: 500px;
+    height: auto;
+}
+
+
+.about{
+   width: 80%;
+   margin: 0 auto;
+}
+
+.floating-paragraph {
+    width: 65%; 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 22.5px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.h1{
+    text-align: center;
+}
+
+.try-but a{
+    text-decoration: none;
+}
+
+.try-but button {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: darkseagreen;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.try-but button:hover {
+    background-color: #000000;
+    color: darkseagreen;
+    text-decoration: none;
+}
+
+.contact-title{
+    text-align: center;
+    margin-top: 50px;
+    color: darkseagreen;
+    margin-top: 60px;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: darkseagreen;
+    margin-top: 60px;
+}
+
+.contact-us2 .platform-action {
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.contact-us2 form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.contact-us2 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-us2 input[type="text"],
+.contact-us2 input[type="email"],
+.contact-us2 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-us2 textarea {
+    height: 150px;
+}
+
+.contact-us2 button {
+    background-color: darkseagreen;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-us2 button:hover {
+    background-color: black;
+    color: darkseagreen
+}
+
+.campus{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    margin-top: 100px;
+
+}
+
