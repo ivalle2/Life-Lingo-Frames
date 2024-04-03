@@ -36,7 +36,7 @@
 }
 
 .title {
-    margin-top: -45px;
+    margin-top: 45px;
     margin-bottom: 0px;
     text-align: center;
     width: auto;
@@ -46,7 +46,7 @@
 }
 
 .software {
-    margin-top: -50px;
+    margin-top: 50px;
     margin-bottom: 0px;
     text-align: center;
     width: auto;
@@ -63,21 +63,6 @@
 .frames{
     width: 500px;
     height: auto;
-}
-
-
-.about{
-   width: 80%;
-   margin: 0 auto;
-}
-
-.floating-paragraph {
-    width: 65%; 
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 22.5px;
 }
 
 .clearfix::after {
@@ -181,7 +166,108 @@
     margin-left: auto;
     margin-right: auto;
     width: 750px;
-    margin-top: 100px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.about {
+    width: 80%;
+    margin: 0px;;
+}
+
+.about-us-title {
+    width: 65%; 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22.5px;
+    color: darkseagreen;
+}
+
+.floating-paragraph {
+    width: 65%; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22.5px;
+}
+
+.who-we-are {
+    width: 80%;
+    margin: 0px;
+}
+
+.who-we-are {
+    width: 65%; 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22.5px;
+    color: darkseagreen;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    width:300px;
+    background-color: darkseagreen;
+    border-radius: 8px;
+    overflow:hidden;
+    box-shadow: 0px 2px 4px darkseagreen;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.card-content h1{
+    font-size: 17.5px;
 
 }
 
+.card-content p{
+    color: black;
+    margin-top: 10px;
+    font-size:15px;
+    line-height: 1.3;
+
+}
+
+@media (min-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .top-row {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .bottom-row {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
