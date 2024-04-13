@@ -25,43 +25,34 @@
     vertical-align:middle;
 }
 
-.catch {
-    margin-top: 35px;
-    margin-bottom: 0px;
+.catch, .title, .software {
     text-align: center;
     width: auto;
-    padding: 10px 16px; 
-    font-size: 25px;
-    color: darkseagreen;
+    padding: 10px 16px;
+    margin-top: 20px; 
 }
 
 .title {
-    margin-top: 45px;
-    margin-bottom: 0px;
-    text-align: center;
-    width: auto;
-    height: auto;
-    padding: 10px 16px; 
     font-size: 35px;
+    color: black; 
+}
+
+.catch {
+    font-size: 25px;
+    color: darkseagreen; 
 }
 
 .software {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    text-align: center;
-    width: auto;
-    padding: 10px 16px; 
     font-size: 25px;
-    color: darkseagreen;
+    color: darkseagreen; 
 }
 
-.frames-container {
-    display: flex;
-    justify-content: center;
-}
-
-.frames{
-    width: 500px;
+.LifeLingo_Glasses { /* video of glasses play on autoplay*/
+    display: block;
+    margin: 0 auto; 
+    margin-top: 10px; 
+    max-width: 80%; 
+    width: 100%;
     height: auto;
 }
 
@@ -79,11 +70,14 @@
     text-decoration: none;
 }
 
-.try-but button {
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
+.try-but {
     display: block;
+    margin: 20px auto 0; 
+    text-align: center; 
+}
+
+.try-but button {
+    display: inline-block; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -98,6 +92,7 @@
     color: darkseagreen;
     text-decoration: none;
 }
+
 
 .contact-title{
     text-align: center;
