@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Checkout Form</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="checkoutstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Checkout Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="checkoutstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+<div class="topnav">
+    <div>
+    <img src="LIFE-LINGO.png" alt="Project Title" class="logo">
+    <a href="checkout.html">Purchase Now</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="about.html">About Us</a>
+    <a href="index.html">Home</a>
+    </div>
+</div>
+
 <h2>Checkout Form</h2>
 <div class="row">
   <div class="col-75">
@@ -72,17 +85,19 @@
       </form>
     </div>
   </div>
-  <div class="col-25">
+  <div class="col-25" id="card-container">
     <div class="container">
-      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
-      <p><a href="#">Item 1</a> <span class="price">$105</span></p>
-      <p><a href="#">Item 2</a> <span class="price">$95</span></p>
-      <p><a href="#">Item 3</a> <span class="price">$100</span></p>
-      <p><a href="#">Item 4</a> <span class="price">$50</span></p>
-      <hr>
-      <p>Total <span class="price" style="color:black"><b>$350</b></span></p>
+        <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b id="cart-item-count">0</b></span></h4>
+    <div id="cart-items">
+      <!-- Cart items will be dynamically added here -->
     </div>
+    <hr>
+    <p>Total <span class="price" style="color:black" id="cart-total"><b>$0</b></span></p>
   </div>
-</div>
+</div>      
+      
+
+
+
 </body>
 </html>
