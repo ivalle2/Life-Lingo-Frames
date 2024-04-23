@@ -23,9 +23,13 @@
   .col-75 {
     -ms-flex: 75%;
     flex: 75%;
+    margin-top: 100px;
   }
   
-  .col-25,
+  .col-25 {
+    margin-top: 100px;
+  }
+
   .col-50,
   .col-75 {
     padding: 0 16px;
@@ -58,8 +62,8 @@
   }
   
   .btn {
-    background-color: #04AA6D;
-    color: white;
+    background-color: darkseagreen;
+    color: black;
     padding: 12px;
     margin: 10px 0;
     border: none;
@@ -70,7 +74,8 @@
   }
   
   .btn:hover {
-    background-color: #45a049;
+    background-color: black;
+    color: darkseagreen;
   }
   
   a {
