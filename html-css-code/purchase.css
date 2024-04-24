@@ -1,19 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    color: darkseagreen;
     text-align: center;
     padding: 20px 0;
 }
 
 h1, h2, p {
     margin: 0;
+    margin-top: 20px;
 }
 
 .products-container {
@@ -22,6 +21,7 @@ h1, h2, p {
     gap: 20px;
     padding: 20px;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .product {
@@ -42,15 +42,17 @@ h1, h2, p {
 
 button {
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: darkseagreen;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: black;
+    color: darkseagreen
 }
 
 .cart {
