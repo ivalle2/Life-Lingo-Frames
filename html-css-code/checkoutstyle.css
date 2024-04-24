@@ -8,20 +8,20 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-    .checkout {
-        width: 30%;
-        margin: 0px;
-    }
+  .checkout {
+    width: 30%;
+    margin: 0px;
+}
     
-    .checkout{
-        margin-top: 40px;
-        margin-left: 400px;
-        margin-right: 400px;
-        font-size: 30px;
-        color: darkseagreen;
-    }
+.checkout{
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 30px;
+    color: darkseagreen;
+}
     
-  .col-25 {
+.col-25 {
     -ms-flex: 25%;
     flex: 25%;
   }

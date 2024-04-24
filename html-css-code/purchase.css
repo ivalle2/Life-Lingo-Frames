@@ -1,43 +1,73 @@
+.topnav {
+    background-color: darkseagreen;
+    overflow: hidden;
+    width: auto;
+}
+
+.topnav a{
+    float: right;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: darkseagreen;
+}
+
+.logo{
+    max-width: 100px;
+    height:auto;
+    display:inline-block;
+    vertical-align:middle;
+}
+
 body {
+    background-color: #f8f8f8;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
 }
 
-header {
-    color: darkseagreen;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
     text-align: center;
-    padding: 20px 0;
 }
 
-h1, h2, p {
-    margin: 0;
-    margin-top: 20px;
-}
-
-.products-container {
+.items {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 10px;
 }
 
-.product {
-    border: 1px solid black;
-    padding: 20px;
-    text-align: center;
+.item {
+    width: 200px;
+    padding: 10px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
     margin-bottom: 20px;
 }
 
-.product img {
+.item img {
     max-width: 100%;
     border-radius: 8px;
+}
+
+.cart {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 button {
@@ -47,42 +77,12 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 button:hover {
     background-color: black;
-    color: darkseagreen
+    color: darkseagreen;
 }
 
-.cart {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-}
-
-.cart h2 {
-    border-bottom: 2px solid darkseagreen;
-    padding-bottom: 10px;
-}
-
-.cart-item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-button.checkout {
-    background-color: #4caf50;
-    margin-top: 20px;
-}
-
-/* Responsive Styling */
-@media (max-width: 768px) {
-    .products-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
