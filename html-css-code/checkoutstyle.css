@@ -7,9 +7,20 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: 0 -16px;
   }
-  
+    .checkout {
+        width: 30%;
+        margin: 0px;
+    }
+    
+    .checkout{
+        margin-top: 40px;
+        margin-left: 400px;
+        margin-right: 400px;
+        font-size: 30px;
+        color: darkseagreen;
+    }
+    
   .col-25 {
     -ms-flex: 25%;
     flex: 25%;
@@ -23,11 +34,11 @@
   .col-75 {
     -ms-flex: 75%;
     flex: 75%;
-    margin-top: 100px;
+    margin-top: 40px;
   }
   
   .col-25 {
-    margin-top: 100px;
+    margin-top: 40px;
   }
 
   .col-50,
@@ -39,7 +50,7 @@
     background-color: #f2f2f2;
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgrey;
-    border-radius: 3px;
+    border-radius: 10px;
   }
   
   input[type=text] {
@@ -47,7 +58,7 @@
     margin-bottom: 20px;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 5px;
   }
   
   label {
