@@ -10,10 +10,8 @@ function addItem(itemName, itemPrice) {
 }
 
 function goToCheckout() {
-    // Store item count and total price in session storage to access in checkout page
     sessionStorage.setItem('itemCount', itemCount);
     sessionStorage.setItem('totalPrice', totalPrice);
 
-    // Redirect to checkout page
     window.location.href = 'checkout.html';
 }

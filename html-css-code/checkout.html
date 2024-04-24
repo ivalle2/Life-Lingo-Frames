@@ -91,7 +91,6 @@
 </div>
 
 <script>
-    // Retrieve item count and total price from session storage
     let itemCount = sessionStorage.getItem('itemCount');
     let totalPrice = sessionStorage.getItem('totalPrice');
 
@@ -99,7 +98,6 @@
     document.getElementById('checkoutTotalPrice').textContent = totalPrice;
 
     function confirmOrder() {
-        // Simulate order confirmation process (e.g., send data to server)
         document.getElementById('orderStatus').textContent = 'Order successfully placed!';
     }
 </script>
