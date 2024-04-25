@@ -188,6 +188,23 @@
     font-size: 22.5px;
 }
 
+.serve{
+    width: 65%; 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22.5px;
+    color: darkseagreen;
+}
+
+.we-serve{
+    width: 65%; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22.5px;
+}
+
 .who-we-are {
     width: 80%;
     margin: 0px;
