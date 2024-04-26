@@ -40,6 +40,4 @@ def main():
     df_unique = df.drop_duplicates().reset_index(drop=True)
     # Create a dictionary with English as keys and Spanish as values
     translation_dict = pd.Series(df_unique['spanish'].values, index=df_unique['english']).to_dict()
-    return translation_dict
-
     
