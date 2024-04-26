@@ -41,3 +41,5 @@ def main():
     # Create a dictionary with English as keys and Spanish as values
     translation_dict = pd.Series(df_unique['spanish'].values, index=df_unique['english']).to_dict()
     
+    return 
+main()
