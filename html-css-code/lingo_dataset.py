@@ -25,7 +25,7 @@ def main():
         api.dataset_download_file(dataset_path, file_name, path='./')
 
         # Accessing the downloaded dataset from repository
-        #csv_file = 'C:/Users/navak/OneDrive/文档/GitHub/ISTA-350-FINAL-PROJ/global-electricity-statistics/GlobalElectricityStatistics.csv'
+        csv_file = "C:/Users/navak/Documents/GitHub/Life-Lingo-Frames/html-css-code/data.csv"
         
         df = pd.read_csv(csv_file)
         # Check if the file exists
