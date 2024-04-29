@@ -1,0 +1,46 @@
+::Which of the following is the correct translation for 'manzana'?::
+{
+=apple #Correct translation!
+~banana #Incorrect translation
+~grape #Incorrect translation
+~cherry #Incorrect translation
+}
+
+::True/False: 'gato' means 'cat'.::
+{
+T #Correct! 'Gato' does mean 'cat'.
+}
+
+::Which of the following is the correct translation for 'naranja'?::
+{
+=orange #Correct translation!
+~apple #Incorrect translation
+~pear #Incorrect translation
+~peach #Incorrect translation
+}
+
+::True/False: 'perro' means 'bread'.::
+{
+F #Incorrect! 'Perro' means 'dog'.
+}
+
+::Which of the following is the correct translation for 'uva'?::
+{
+=grape #Correct translation!
+~lemon #Incorrect translation
+~lime #Incorrect translation
+~melon #Incorrect translation
+}
+
+::True/False: 'pan' means 'bread'.::
+{
+T #Correct! 'Pan' does mean 'bread'.
+}
+
+::Match the following English words with their Spanish translations::
+{
+=apple -> manzana
+=cat -> gato
+=dog -> perro
+=bread -> pan
+}
