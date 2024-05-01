@@ -6,6 +6,206 @@
 ~cherry #Incorrect translation
 }
 
+::Match the following English words with their Spanish translations.::
+{
+=safety -> seguridad
+=operating -> operando
+=training -> capacitación
+=hazard -> peligro
+}
+
+::Match the following English words with their Spanish translations.::
+{
+=worker -> trabajador
+=open -> abrir
+=timer -> temporizador
+=done -> hecho
+}
+
+::Match the following English words with their Spanish translations.::
+{
+=cutter -> cortador
+=wire -> alambre
+=drill -> taladro
+=sanding -> lijado
+}
+
+::Which of the following is the correct translation for 'equipment'?::
+{
+=equipo #Correct!
+~herramienta #Incorrect
+~utilidad #Incorrect
+~aparato #Incorrect
+}
+
+::Which of the following is the correct translation for 'wrenches'?::
+{
+=llaves #Correct!
+~pinzas #Incorrect
+~destornilladores #Incorrect
+~martillos #Incorrect
+}
+
+::Which of the following is the correct translation for 'machines'?::
+{
+=máquinas #Correct!
+~mecanismos #Incorrect
+~aparatos #Incorrect
+~herramientas #Incorrect
+}
+
+::Which of the following is the correct translation for 'woodshop'?::
+{
+=taller de carpintería #Correct!
+~taller de máquinas #Incorrect
+~almacén de madera #Incorrect
+~tienda de madera #Incorrect
+}
+
+::Which of the following is the correct translation for 'flammable'?::
+{
+=inflamable #Correct!
+~explosivo #Incorrect
+~corrosivo #Incorrect
+~reactivo #Incorrect
+}
+
+::Which of the following is the correct translation for 'laser'?::
+{
+=láser #Correct!
+~rayo #Incorrect
+~luz #Incorrect
+~brillo #Incorrect
+}
+
+::Which of the following is the correct translation for 'equipment'?::
+{
+=equipo #Correct!
+~herramienta #Incorrect
+~aparato #Incorrect
+~utilidad #Incorrect
+}
+
+::Which of the following is the correct translation for 'wrenches'?::
+{
+=llaves #Correct!
+~tornillos #Incorrect
+~clavos #Incorrect
+~martillos #Incorrect
+}
+
+::Which of the following is the correct translation for 'machines'?::
+{
+=máquinas #Correct!
+~mecanismos #Incorrect
+~aparatos #Incorrect
+~dispositivos #Incorrect
+}
+
+::Which of the following is the correct translation for 'woodshop'?::
+{
+=taller de carpintería #Correct!
+~tienda de madera #Incorrect
+~almacén de madera #Incorrect
+~oficina de madera #Incorrect
+}
+
+::Which of the following is the correct translation for 'worker'?::
+{
+=trabajador #Correct!
+~empleado #Incorrect
+~operario #Incorrect
+~laborista #Incorrect
+}
+
+::Which of the following is the correct translation for 'open'?::
+{
+=abrir #Correct!
+~soltar #Incorrect
+~cerrar #Incorrect
+~detener #Incorrect
+}
+
+::Which of the following is the correct translation for 'timer'?::
+{
+=temporizador #Correct!
+~cronómetro #Incorrect
+~reloj #Incorrect
+~alarma #Incorrect
+}
+
+::Which of the following is the correct translation for 'done'?::
+{
+=hecho #Correct!
+~terminado #Incorrect
+~completado #Incorrect
+~finalizado #Incorrect
+}
+
+::Which of the following is the correct translation for 'hazard'?::
+{
+=peligro #Correct!
+~riesgo #Incorrect
+~amenaza #Incorrect
+~accidente #Incorrect
+}
+
+::Which of the following is the correct translation for 'cutter'?::
+{
+=cortador #Correct!
+~tijera #Incorrect
+~cuchillo #Incorrect
+~sierra #Incorrect
+}
+
+::Which of the following is the correct translation for 'wire'?::
+{
+=cable #Correct!
+~alambre #Incorrect
+~cuerda #Incorrect
+~hilo #Incorrect
+}
+
+::Which of the following is the correct translation for 'drill'?::
+{
+=taladro #Correct!
+~broca #Incorrect
+~perforadora #Incorrect
+~excavadora #Incorrect
+}
+
+::Which of the following is the correct translation for 'sanding'?::
+{
+=lijado #Correct!
+~pulido #Incorrect
+~raspado #Incorrect
+~cepillado #Incorrect
+}
+
+::Which of the following is the correct translation for 'training'?::
+{
+=entrenamiento #Correct!
+~formación #Incorrect
+~educación #Incorrect
+~aprendizaje #Incorrect
+}
+
+::Which of the following is the correct translation for 'safety'?::
+{
+=seguridad #Correct!
+~protección #Incorrect
+~salvaguardia #Incorrect
+~defensa #Incorrect
+}
+
+::Which of the following is the correct translation for 'operating'?::
+{
+=operativo #Correct!
+~funcionando #Incorrect
+~trabajando #Incorrect
+~ejecutando #Incorrect
+}
+
 ::True/False: 'gato' means 'cat'.::
 {
 T #Correct! 'Gato' does mean 'cat'.
